@@ -18,7 +18,8 @@ public class Solution2 {
         Scanner scanner = new Scanner(System.in);
 
         int row = scanner.nextInt();
-    
+        int[] test={'a', 12, 130};
+        int y=10;
 
         int[][] arr = new int[row][row];
 
