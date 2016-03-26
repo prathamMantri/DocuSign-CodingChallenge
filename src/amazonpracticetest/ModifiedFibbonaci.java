@@ -21,13 +21,11 @@ public class ModifiedFibbonaci {
         BigInteger second = BigInteger.valueOf(scanner.nextInt());
         int limit = scanner.nextInt();
         BigInteger result = BigInteger.ZERO;
-        int counter = 3;
         for (int i = 0; i < limit - 2; i++) {
             result = second.multiply(second).add(first);
             //System.out.println("First is " + first + " Second is " + second + " Result is " + result + " Counter is " + counter);
             first = second;
             second = result;
-            counter++;   
         }
         System.out.println(result);
     }
