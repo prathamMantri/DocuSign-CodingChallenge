@@ -9,11 +9,7 @@ package amazonpracticetest;
  *
  * @author Prathamesh
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class FuunyStrings {
 
@@ -21,8 +17,8 @@ public class FuunyStrings {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scanner = new Scanner(System.in);
         int noOfStrings = scanner.nextInt();
-        String input = "";
-        int difference = 0, difference2 = 0;
+        String input ;
+        int difference, difference2;
         char[] inputCharArray = null;
         for (int i = 0; i < noOfStrings; i++) {
             int flag = 0;
